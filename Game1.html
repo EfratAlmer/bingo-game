@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1,2.css" rel="stylesheet" />
+    <script src="JavaScript1.js"></script>
+</head>
+<body>
+    <!--בסד-->
+
+    <div id="back"><img id="myImage" src="bingoImage.png" /></div>
+    <div id="top"></div>
+    <div id="right"></div>
+    <div id="left"></div>
+    <div><table id="bingo" align="center"></table></div>
+    <div id="bottem"></div>
+
+
+    <div id="branch" onclick="branchclick()">
+        <img id="imgsetting" src="תמונה1.jpg" />
+
+
+    </div>
+    <aside id="asideright">
+        <br />
+        <label id="player">level 1</label>
+        <br /><br />
+        <a id="ahome" title="Home" href="homePage.html"><label>homePage </label><img class="btn2" src="home1.png" /></a>
+        <br />
+        <a id="level" title="level" href="Game2.html"><label>  level  two  </label><img class="btn2" src="canstockphoto47896673.jpg" /></a>
+        <br />
+        <a id="ainfo" title="Information" href="menu.html"><label>Information</label><img class="btn2" src="info1.png" /></a>
+        <br />
+    </aside>
+    <!------>
+    <nav id="mymessage" class="message">
+        <nav class="message-content" id="myy">
+            <nav class="message-header" id="myyy">
+                <h2 id="names2">ניצחת </h2>
+                <h3>בחר רמה למשחק חדש</h3><br\></br\>
+                <button class="bopen" onclick=" window.location.assign('Game1.html');localStorage.setItem('level1','1')">רמה 1</button>
+                <button class="bopen" onclick=" window.location.assign('Game2.html'); localStorage.setItem('level2','0')">רמה 2</button>
+            </nav>
+        </nav>
+    </nav>
+
+
+   
+
+</body>
+</html>

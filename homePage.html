@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="scriptHome.js"></script>
+    <link href="StyleHome.css" rel="stylesheet" />
+</head>
+<body dir="rtl">
+    <div>
+        <header>
+            <div id="clockimg"> </div>
+            <lable> Bingo Game </lable>
+            <button onclick="window.location.assign('menu.html')" id="Btclose">מדריך </button>
+        </header>
+        <div id="Details">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <p>הקש שם</p>
+                <input type="text" id="names" />
+                <p>הקש סיסמא</p>
+                <input type="password" maxlength="6" id="password1" />
+                <p>הקש אימות סיסמא</p>
+                <input type="password" maxlength="6" id="password2" />
+                <p id="p1"></p>
+                <button onclick="checkinput()" type="submit">למשחק</button>
+
+            </fieldset>
+        </div>
+
+        <div id="mymessage" class="message">
+
+
+            <div class="message-content">
+                <div class="message-header">
+                    <h2 id="names2">שלום </h2>
+                    <h3>בחר רמה</h3><br\></br\>
+                    <button onclick=" window.location.assign('Game1.html');localStorage.setItem('level1','1')">רמה 1</button>
+                    <button onclick=" window.location.assign('Game2.html'); localStorage.setItem('level2','0')">רמה 2</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <div id="div2">          
+            <button class="ball a" ><br /></button>
+            <button class="ball c" ><br /></button>
+            <button class="ball e" ><br /></button>
+            <button class="ball g" ><br /></button>
+            <button class="ball j" ><br /></button>
+        </div>
+    </footer>
+
+</body>
+</html>
